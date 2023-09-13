@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "parser-bbk"
+version = "0.1.0"
+description = ""
+authors = ["WayupKG <adikgk232323@gmail.com>"]
+readme = "README.md"
+packages = [{include = "parser_bbk"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bs4 = "^0.0.1"
+requests = "^2.31.0"
+lxml = "^4.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
